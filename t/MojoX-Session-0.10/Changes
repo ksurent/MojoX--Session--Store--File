@@ -1,0 +1,41 @@
+Revision history for MojoX-Session
+
+0.10    2009-04-12 00:00:00
+        - DBIC store, thanks to William Ono
+
+0.09    2009-04-08 00:00:00
+        - get rid of not initialized warnings
+        - do not set sid unless session is loaded
+        - test empty data handling
+        - do not return object, return stringified cookie
+        - fix hardcoded table column names
+        - warning fix
+        - weak tx
+
+0.08    2009-01-25 00:00:00
+        - tx is passed to session now
+        - correct ip_match behavior
+
+0.07    2009-01-25 00:00:00
+        - fix bug when there are many cookies
+
+0.06    2009-01-25 00:00:00
+        - path, domain, secure cookie flags
+
+0.05    2009-01-20 00:00:00
+        - wrong generated id length fix
+
+0.04    2008-12-07 00:00:00
+        - fix multiple data setting
+
+0.03    2008-11-26 00:00:00
+        - flash
+        - No flush on object desctruction, bad practice
+
+0.02    2008-11-18 00:00:00
+        - Digest::SHA1 in dependencies
+        - Made tx ref weak
+
+0.01    2008-11-16 00:00:00
+        First version
+
