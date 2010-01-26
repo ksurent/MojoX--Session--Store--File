@@ -32,13 +32,13 @@ Any driver must implement these methods:
 
 =head2 freeze($file, $ref)
 
-    C<$ref> should be automatically converted to reference unless it already is.
+C<$ref> should be automatically converted to reference unless it already is.
 
-    Must return some true value on sucess and false value otherwise.
+Must return some true value on sucess and false value otherwise.
 
 =head2 thaw($file)
 
-    Must return some ref value on success or undef otherwise.
+Must return some ref value on success or undef otherwise.
 
 =head1 CONTRIBUTE
 
