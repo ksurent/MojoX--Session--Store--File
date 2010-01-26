@@ -6,3 +6,4 @@ blib
 META.yml
 *.tar.gz
 MANIFEST
+MANIFEST.SKIP
