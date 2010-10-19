@@ -1,0 +1,37 @@
+NAME
+    MojoX::Session::Store::File - File store for MojoX::Session
+
+SYNOPSIS
+        my $session = MojoX::Session->new(
+            store => MojoX::Session::Store::File->new,
+        );
+
+ATTRIBUTES
+    MojoX::Session::Store::File implemets the following attributes:
+
+  dir
+    Directory to store session files. Must be writable. Defaults to your OS
+    temp directory.
+
+  prefix
+    String to prefix each session filename. Defaults to "mojoxsess".
+
+  driver
+    Module to serialize your session data. Default is Storable. FreezeThaw
+    also comes with this package. You are welcome to add your own (see
+    MojoX::Session::Store::File::Driver).
+
+METHODS
+    MojoX::Session::Store::File inherits all methods from
+    MojoX::Session::Store.
+
+CONTRIBUTE
+    http://github.com/ksurent/MojoX--Session--Store--File
+
+AUTHOR
+    Алексей Суриков <ksuri@cpan.org>
+
+LICENSE
+    This program is free software, you can redistribute it under the same
+    terms as Perl itself.
+
