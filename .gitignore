@@ -1,9 +1,7 @@
-pm_to_blib
-Makefile.old
-Makefile
-inc
 blib
-META.yml
-*.tar.gz
+pm_to_blib
+inc
 MANIFEST
-MANIFEST.SKIP
+META.yml
+Makefile
+*.tar.gz
