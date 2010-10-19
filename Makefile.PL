@@ -8,7 +8,8 @@ requires 'MojoX::Session' => 0.15;
 requires 'File::Spec';
 requires 'Storable';
 requires 'FreezeThaw';
-
 test_requires 'Test::More';
+
+repository 'http://github.com/ksurent/MojoX--Session--Store--File';
 
 WriteAll;
